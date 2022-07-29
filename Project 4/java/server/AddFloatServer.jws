@@ -1,0 +1,8 @@
+public class AddFloatServer
+{
+	public double add(double x, double y) throws Exception
+		{
+		double result=x+y;
+		return result;
+		}
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report title ="Introduction to Data Science"
+	author="Gaurav Haral">
+
+<Chapter>
+<Chapter-head> Chapter 1. What is Data Science?</Chapter-head>
+		<section>
+			<section-head>Section 1.1 Introduction to Data Science</section-head>
+			<paragraph><content>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.</content></paragraph>
+		</section>
+
+
+		<section>
+			<section-head>Section 1.2 Tools and Technologies Used In Data Science</section-head>
+			<paragraph>
+				<content><list type="unordered">
+					
+					<item>BigML</item>
+					<item>Tableau</item>
+					<item>Microsoft Access</item>
+					<item>SAS</item>
+					<item>Apache Spark</item>
+					<item>D3.js</item>
+				</list>
+			</content>
+			</paragraph>
+		</section>
+	</Chapter>
+
+
+<Chapter>
+	<Chapter-head>Chapter 2 Application of Data Science</Chapter-head>
+	<section>
+					<section-head>Section 2.1 Application of Data Science in Predictive Analysis</section-head>
+
+					
+						<paragraph>
+						<content><list type="ordered">
+						<item>Marketing: Predictive analytics predicts campaign opportunities and helps find new markets for products and services.</item>
+						
+						<item>Operations: Analytics power smart inventory management systems, forecasting supply and demand levels based on a variety of factors. They’re also used to optimize repair schedules to minimize equipment downtime.</item>
+
+						<item>Sales: Identifying a company’s best clients and predicting customer churn are two strengths of predictive analytics.</item>
+				</list>	</content>
+
+						</paragraph>
+					
+		
+		</section>
+
+		<section>
+			<section-head>Section 2.2 Application of Data Science in Natural Language Processing</section-head>
+
+			<paragraph>
+						<content><list type="ordered">
+							<item>Sentiment Analysis</item>
+							<item>Text Classification</item>
+							<item>Chatbots and Virtual Assistts</item>
+							<item>Text Extraction</item>
+							<item>Machine Translation</item>
+							<item>Text Summarization</item>
+							<item>Market Intelligence</item>
+							<item>Auto-Correct</item>
+							<item>Intent Classification</item>
+							<item>Urgency Detection</item>
+							<item>Speech Recognition</item>
+							</list>
+						</content>
+					
+					</paragraph>
+		</section>
+	</Chapter>
+
+
+</Report>

@@ -1,0 +1,93 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Technicalreport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="index">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="content">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ordered-list">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="newline" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Pagetitle"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Chapter1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="section1.1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="section-head"/>
+                    <xs:element type="xs:string" name="paragraph"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="section1.2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="section-head"/>
+                    <xs:element name="paragraph">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="unorderedlist"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Chapter2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Chapterhead"/>
+              <xs:element name="section2.1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="section-head"/>
+                    <xs:element name="paragraph">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="unorderedlist"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="section2.2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="section-head"/>
+                    <xs:element name="paragraph">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="unorderedlist"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="title"/>
+      <xs:attribute type="xs:string" name="By"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
